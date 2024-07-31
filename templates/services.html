@@ -1,0 +1,105 @@
+{% extends base %}
+{% block title %} About | Deck Chef {% endblock %}
+
+<head>
+  <meta name="description" content="Find out more about Deck Chef and our parent company Core Digital LLC">
+</head>
+<header>
+  {% block styling %}
+  <style>
+    .card{
+      animation: fadeInAnimation2 ease 2s;
+    }
+  </style>
+  {% endblock %}
+
+</header>
+
+{% block content %}
+  <body>
+    <div class="container">
+      <h1>Services</h1>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3" >
+            <h2>Landscape Design</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Landscape Installation</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Landscape Maintenance</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Landscape Architecture</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Outdoor Living</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Add borders</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Add borders</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px;">
+          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+            <h2>Add borders</h2>
+            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="container">
+      <h1 style="text-align: center;">Have Questions? Contact Us!</h1>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <figure class="figure">
+            <img src="{{url_for('static', filename='images/sm-landscape.jpg')}}" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption" style="text-align: center;">
+              <a class="btn btn-outline-primary btn-lg" href="/contact" type="button">Contact</a>
+
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+
+  </body>
+  {% endblock %}
